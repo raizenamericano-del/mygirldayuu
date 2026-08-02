@@ -1,0 +1,43 @@
+{
+  "likes": {
+    "IMG-20260709-WA0014.jpg": 142,
+    "IMG-20260702-WA0016.jpg": 198,
+    "IMG-20260630-WA0013.jpg": 165,
+    "IMG-20260503-WA0106.jpg": 210,
+    "IMG-20260715-WA0065.jpg": 330,
+    "IMG-20260613-WA0014.jpg": 188,
+    "IMG-20260311-WA0001.jpg": 174,
+    "IMG-20260617-WA0031.jpg": 155
+  },
+  "apologyStatus": {
+    "forgiven": false,
+    "timestamp": null,
+    "message": "Belum diklik sama Sinta nih, semoga cepet dimaafin yaa wkwk ❤️"
+  },
+  "guestbook": [
+    {
+      "id": "1",
+      "author": "Rifki (Cowokmu)",
+      "avatar": "🤴",
+      "text": "Happy Girlfriend Day sayangku Sinta!! Makasih ya udah kuat dan sabar ngadepin kelakuanku yang kadang random abis wkwk ❤️",
+      "timestamp": "2 Agustus 2026 - 08:30 WIB",
+      "likes": 24
+    },
+    {
+      "id": "2",
+      "author": "Sinta Nuriya",
+      "avatar": "👸",
+      "text": "Iyaa Rifkii sayang, walaupun kamu suka random tiba-tiba bilang 'KU TUMBUK KAUU', aku tetep sayang kok! wkwk 💕",
+      "timestamp": "2 Agustus 2026 - 09:15 WIB",
+      "likes": 31
+    },
+    {
+      "id": "3",
+      "author": "Rifki Fadhilla",
+      "avatar": "🌹",
+      "text": "Janji bakal terus bikin kamu ketawa dan bahagia terus sampai kita kakek nenek nanti! Love u 1000%! ✨",
+      "timestamp": "2 Agustus 2026 - 10:00 WIB",
+      "likes": 19
+    }
+  ]
+}

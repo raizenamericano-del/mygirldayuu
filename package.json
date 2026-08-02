@@ -1,0 +1,35 @@
+{
+  "name": "sinta-rifki-girlfriend-day-fullstack",
+  "version": "2.0.0",
+  "description": "Full-Stack React (Next.js 14) + Serverless API Web Application untuk merayakan National Girlfriend Day 2026 dari Maulana Rifki Fadhilla (Rifki) untuk Sinta Nuriya",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.419.0",
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^11.3.21"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "fullstack",
+    "girlfriend-day",
+    "sinta",
+    "rifki",
+    "vercel"
+  ],
+  "author": "Maulana Rifki Fadhilla (Rifki)"
+}

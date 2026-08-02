@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: radial-gradient(circle at 50% 0%, #3a152e 0%, #180914 55%, #10050d 100%);
+    color: #fff1f2;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #180914;
+}
+::-webkit-scrollbar-thumb {
+  background: #f43f5e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e11d48;
+}
+
+/* Animated Aurora Glowing Border */
+@keyframes borderGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(244, 63, 94, 0.4), inset 0 0 15px rgba(244, 63, 94, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(244, 63, 94, 0.8), 0 0 15px rgba(255, 215, 0, 0.5), inset 0 0 25px rgba(244, 63, 94, 0.4);
+  }
+}
+
+.aurora-border {
+  animation: borderGlow 3s ease-in-out infinite;
+}
+
+/* Smooth Tilt Hover Card */
+.card-tilt {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}
+.card-tilt:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 35px -10px rgba(244, 63, 94, 0.4);
+}
